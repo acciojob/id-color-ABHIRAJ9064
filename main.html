@@ -4,77 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid;
-  text-align: left;
-  padding: 4px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-</head>
-<body>
-
-<table>
-  <tr>
-    <th>id</th>
-    <th>Background</th>
-    <th>Border-width</th>
-	 <th>Border-color</th> 
-  </tr>
-  <tr>
-    <td>yellow</td>
-    <td>yellow</td>
-    <td>1px</td>
-	 <td>green</td> 
-  </tr>
-  <tr>
-    <td>red</td>
-    <td>red</td>
-    <td>1px</td>
-	  <td>black</td>
-  </tr>
-  <tr>
-    <td>green</td>
-    <td>green</td>
-    <td>1px</td>
-	<td>yellow</td>  
-  </tr>
-  
-</table>
-<p class="one">Paragraph-1</p>
-<p class="two">Paragraph-2</p>
-<p class="three">Paragraph-3</p>
-<style>
-p.one {
+.one {
   border-style: solid;
-  border-color: green;
+  border-width: 1px;
+border-color: green;
 background-color: yellow;
 }
 
-p.two {
+.two {
   border-style: solid;
+border-width: 1px;
   border-color: black;
 background-color: red;	
 } 
 
-p.three {
+.three {
   border-style: solid;
   border-color: yellow;
+border-width: 1px;	
 background-color: green;	
 } 
 </style>
+</head>
+	
+<body>
+<p class="one">Paragraph-1</p>
+<p class="two">Paragraph-2</p>
+<p class="three">Paragraph-3</p>
 </body>
 </html>
 
